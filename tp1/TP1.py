@@ -2,8 +2,8 @@ import numpy as np
 import os
 import matplotlib.pyplot as plt
 
-from CalculCost import CalculCost
-from DesctGrad import DesctGrad
+from tp1.CalculCost import CalculCost
+from tp1.DesctGrad import DesctGrad
 
 # ============================================================
 # 4.1 Affichage des données

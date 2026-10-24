@@ -1,6 +1,6 @@
 import numpy as np
 
-from CalculCost import CalculCost
+from tp1.CalculCost import CalculCost
 
 
 def DesctGrad(x, y, theta, alpha, iters):
