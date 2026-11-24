@@ -24,7 +24,7 @@ def traceData(X, y, grid=False, model=None):
                     mfc='none', mec='r', ms=14, mew=1.5)
     pyplot.grid(grid)
 
-def svmModel(X, Y, C, kernelFunction, tol=1e-3, max_passes=5, args=()):
+def svmModel(X, Y, C, kernelFunction, tol=1e-3, max_passes=20, args=()):
    
     # make sure data is signed int
     Y = Y.astype(int)
